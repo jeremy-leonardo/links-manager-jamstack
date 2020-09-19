@@ -1,3 +1,4 @@
+This project uses Netlify (serverless) Functions and FaunaDB for the database.<br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
