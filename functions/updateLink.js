@@ -5,10 +5,10 @@ const sendQuery = require('./utils/sendQuery');
 const formattedResponse = require('./utils/formattedResponse');
 
 exports.handler = async (event) => {
-    if (event.httpMethod != 'UPDATE') {
+    if (event.httpMethod != 'PUT') {
         return formattedResponse(405, { error: 'Invalid request method' });
     }
-    const { name, url, description, id, archived } = JSON.parse(event.body);
+    const { name, url, description, _id: id, archived } = JSON.parse(event.body);
     const variables = { name, url, description, archived, id };
     try {
         const { updateLink: updatedLink } = await sendQuery(
