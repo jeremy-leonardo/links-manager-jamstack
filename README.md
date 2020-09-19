@@ -1,3 +1,8 @@
+# Link Manager Jamstack
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b368363f-04c8-410a-86cf-eed175c2c656/deploy-status)](https://app.netlify.com/sites/link-list-react/deploys)
+
+This project is a JAMSTACK project. Read more about JAMSTACK at https://jamstack.org.<br />
 This project uses Netlify (serverless) Functions and FaunaDB for the database.<br />
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
